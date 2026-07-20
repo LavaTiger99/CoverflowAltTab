@@ -111,7 +111,12 @@ export class Switcher {
         this.actor.add_child(this.previewActor);
         Main.uiGroup.add_child(this.actor);
 
-        Main.uiGroup.set_child_above_sibling(this.actor, manager.platform._backgroundGroup);
+        if (this._parent) {
+            // Keep app sub-switchers above the parent application switcher.
+            Main.uiGroup.set_child_above_sibling(this.actor, this._parent.actor);
+        } else {
+            Main.uiGroup.set_child_above_sibling(this.actor, manager.platform._backgroundGroup);
+        }
 
         this.gestureInProgress = false;
 
@@ -444,6 +449,7 @@ export class Switcher {
 
             if (this._toSubSwitcher !== null) {
                 this._toSubSwitcher.actor.show();
+                Main.uiGroup.set_child_above_sibling(this._toSubSwitcher.actor, this.actor);
                 this._addBackgroundEffects();
                 let current_index = direction === Direction.TO_RIGHT ? 0 : this._toSubSwitcher._windows.length - 1;
                 this._toSubSwitcher._setCurrentIndex(current_index);
