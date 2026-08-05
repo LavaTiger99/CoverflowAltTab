@@ -209,9 +209,15 @@ export class Switcher {
         }
 
         // hide windows and showcd  Coverflow actors
+        // Only hide windows on the current workspace. Hiding (and later
+        // re-showing) windows from other workspaces makes them briefly render
+        // on the current workspace as non-interactive ghosts on GNOME 48+.
         if (this._parent === null) {
+            let currentWorkspace = this._manager.workspace_manager.get_active_workspace();
             for (let child of global.window_group.get_children()) {
-                if (child !== global.window_group.get_first_child()) {
+                if (child !== global.window_group.get_first_child()
+                    && typeof child.get_meta_window === "function"
+                    && child.get_meta_window().get_workspace() === currentWorkspace) {
                     child.hide();
                 }
             }
@@ -1161,9 +1167,14 @@ export class Switcher {
 
         if (this._parent === null) this._manager.platform.removeBackground();
         if (this._parent === null) {
+            let currentWorkspace = this._manager.workspace_manager.get_active_workspace();
             for (let child of global.window_group.get_children()) {
                 if (typeof child.get_meta_window === "function") {
-                    if (!child.get_meta_window().minimized) {
+                    let metaWin = child.get_meta_window();
+                    // Only re-show windows that belong to the current workspace.
+                    // Re-showing windows from other workspaces is what left them
+                    // ghosting on the current workspace after a switch.
+                    if (!metaWin.minimized && metaWin.get_workspace() === currentWorkspace) {
                         child.show();
                     }
                 }
