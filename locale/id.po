@@ -6,9 +6,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CoverflowAltTab@palatis.blogspot.com\n"
-"Report-Msgid-Bugs-To: \n"
+"Report-Msgid-Bugs-To: dsheeler@pobox.com\n"
 "POT-Creation-Date: 2026-07-14 17:30-0500\n"
-"PO-Revision-Date: 2026-07-02 10:01+0000\n"
+"PO-Revision-Date: 2026-08-09 13:51+0000\n"
 "Last-Translator: Arif Budiman <arifpedia@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/coverflow-alt-"
 "tab/source/id/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2026.7.dev0\n"
+"X-Generator: Weblate 2026.9.dev0\n"
 
 #: src/prefs.js:118
 #, javascript-format
@@ -107,12 +107,11 @@ msgstr "Sembunyikan Panel"
 
 #: src/prefs.js:179
 msgid "Hide panel when switching windows."
-msgstr "Sembunyikan panel ketika beralih jendela."
+msgstr "Sembunyikan panel saat beralih jendela."
 
 #: src/prefs.js:180
-#, fuzzy
 msgid "Background Dim-Factor"
-msgstr "Latar belakang"
+msgstr "Faktor Redup Latar Belakang"
 
 #: src/prefs.js:180
 msgid "Bigger means darker."
@@ -128,37 +127,35 @@ msgstr "Balikkan pengaturan arah gulir sistem."
 
 #: src/prefs.js:182
 msgid "Start with Next"
-msgstr ""
+msgstr "Mulai dengan Berikutnya"
 
 #: src/prefs.js:182
-#, fuzzy
 msgid "Start with the next window (instead of the current window)."
-msgstr "Beralih antarjendela di monitor saat ini."
+msgstr "Mulai dengan jendela berikutnya (bukan jendela saat ini)."
 
 #: src/prefs.js:186
-#, fuzzy
 msgid "Dash to Dock Properties"
-msgstr "Sakelar Properti"
+msgstr "Properti Dash to Dock"
 
 #: src/prefs.js:191
 msgid "Show"
-msgstr ""
+msgstr "Tampilkan"
 
 #: src/prefs.js:197
 msgid "Hide"
-msgstr ""
+msgstr "Sembunyikan"
 
 #: src/prefs.js:203
 msgid "Neither"
-msgstr ""
+msgstr "Tidak Ada"
 
 #: src/prefs.js:209
 msgid "Dash to Dock Visibility Behavior"
-msgstr ""
+msgstr "Perilaku Visibilitas Dash to Dock"
 
 #: src/prefs.js:210
 msgid "How to display dash-to-dock when the switcher is active."
-msgstr ""
+msgstr "Cara menampilkan dash-to-dock saat switcher aktif."
 
 #: src/prefs.js:214
 msgid "Animation"
@@ -256,29 +253,24 @@ msgid "Windows"
 msgstr "Jendela"
 
 #: src/prefs.js:292
-#, fuzzy
 msgid "General Settings"
-msgstr "Umum"
+msgstr "Pengaturan Umum"
 
 #: src/prefs.js:295
-#, fuzzy
 msgid "Timeline Settings"
-msgstr "Garis waktu"
+msgstr "Pengaturan Linimasa"
 
 #: src/prefs.js:298
-#, fuzzy
 msgid "Coverflow Settings"
-msgstr "Penutup"
+msgstr "Pengaturan Coverflow"
 
 #: src/prefs.js:303
-#, fuzzy
 msgid "Window Size to Monitor Size Ratio"
-msgstr "Rasio ukuran pratinjau jendela terhadap ukuran monitor"
+msgstr "Rasio Ukuran Jendela terhadap Ukuran Monitor"
 
 #: src/prefs.js:303
-#, fuzzy
 msgid "Maximum ratio of window size to monitor size."
-msgstr "Rasio maksimum ukuran pratinjau jendela terhadap ukuran monitor."
+msgstr "Rasio maksimum ukuran jendela terhadap ukuran monitor."
 
 #: src/prefs.js:305
 msgid "Current workspace only"
@@ -311,23 +303,23 @@ msgstr "Beralih antarjendela di monitor saat ini."
 
 #: src/prefs.js:313
 msgid "Skip Minimized Windows"
-msgstr ""
+msgstr "Lewati Jendela yang Diminimalkan"
 
 #: src/prefs.js:313
 msgid "Exclude minimized windows from the switcher."
-msgstr ""
+msgstr "Keluarkan jendela yang diminimalkan dari switcher."
 
 #: src/prefs.js:315
 msgid "Window Layout Distance"
-msgstr ""
+msgstr "Jarak Tata Letak Jendela"
 
 #: src/prefs.js:315
 msgid "Distance in pixels between timeline window's upper left corners."
-msgstr ""
+msgstr "Jarak dalam piksel antara sudut kiri atas jendela linimasa."
 
 #: src/prefs.js:316
 msgid "Window Layout Angle"
-msgstr ""
+msgstr "Sudut Tata Letak Jendela"
 
 #: src/prefs.js:316
 msgid ""
@@ -336,55 +328,57 @@ msgid ""
 "left corners. The topmost window's upper left corner is at the center of the "
 "monitor."
 msgstr ""
+"Sudut dalam derajat (0–90) untuk tata letak jendela linimasa sehingga "
+"jendela bergerak dari kanan bawah ke kiri atas dengan sudut ini di antara "
+"sudut kiri atas jendela yang berurutan. Sudut kiri atas jendela teratas "
+"berada di tengah monitor."
 
 #: src/prefs.js:317
-#, fuzzy
 msgid "Window Tilt Angle"
-msgstr "Posisi Judul Jendela"
+msgstr "Sudut Kemiringan Jendela"
 
 #: src/prefs.js:317
 msgid "Y-axis rotation angle in degrees applied to timeline windows."
 msgstr ""
+"Sudut rotasi sumbu Y dalam derajat yang diterapkan pada jendela linimasa."
 
 #: src/prefs.js:318 src/prefs.js:321
 msgid "Window Scaling Factor"
-msgstr ""
+msgstr "Faktor Skala Jendela"
 
 #: src/prefs.js:318
-#, fuzzy
 msgid ""
 "Factor by which timeline windows successively shrink with distance from the "
 "top window."
 msgstr ""
-"Faktor untuk memperkecil pratinjau yang berada di samping secara bertahap."
+"Faktor yang membuat jendela linimasa secara berturut-turut mengecil seiring "
+"jarak dari jendela teratas."
 
 #: src/prefs.js:319
 msgid "Enable Window Scaling"
-msgstr ""
+msgstr "Aktifkan Skala Jendela"
 
 #: src/prefs.js:319
 msgid "Useful if you have a large number of windows and want to see them all."
-msgstr ""
+msgstr "Berguna jika Anda memiliki banyak jendela dan ingin melihat semuanya."
 
 #: src/prefs.js:321
-#, fuzzy
 msgid "Factor by which coverflow windows successively shrink off to the side."
 msgstr ""
-"Faktor untuk memperkecil pratinjau yang berada di samping secara bertahap."
+"Faktor yang membuat jendela coverflow secara berturut-turut mengecil ke "
+"samping."
 
 #: src/prefs.js:322
-#, fuzzy
 msgid "Window Angle"
-msgstr "Sudut jendela coverflow"
+msgstr "Sudut Jendela"
 
 #: src/prefs.js:322
 msgid "Angle of off-center windows in coverflow mode."
-msgstr "Sudut jendela yang berada di luar pusat dalam mode coverflow."
+msgstr "Sudut jendela di luar pusat dalam mode coverflow."
 
 #: src/prefs.js:323
-#, fuzzy
 msgid "Window Offset Width"
-msgstr "Lebar offset jendela coverflow"
+msgstr "Lebar Offset Jendela"
 
 #: src/prefs.js:323
 msgid "How far windows are off to the side in coverflow mode."
@@ -476,18 +470,18 @@ msgstr "Shortcut Coverflow Switch Windows"
 
 #: src/prefs.js:455
 msgid "Activate window switcher."
-msgstr "Aktifkan window switcher."
+msgstr "Aktifkan switcher jendela."
 
 #: src/prefs.js:456
-#, fuzzy
 msgid "Coverflow Switch Windows That are Visible on All Workspaces Shortcut"
-msgstr "Shortcut Coverflow Switch Windows"
+msgstr ""
+"Pintasan Coverflow untuk Beralih Jendela yang Terlihat di Semua Workspace"
 
 #: src/prefs.js:456
-#, fuzzy
 msgid "Activate window switcher listing windows visible on all workspaces."
 msgstr ""
-"Beralih antarjendela di ruang kerja saat ini atau di semua ruang kerja."
+"Aktifkan switcher jendela yang menampilkan jendela terlihat di semua "
+"workspace."
 
 #: src/prefs.js:457
 msgid "Coverflow Switch Applications Shortcut"
@@ -495,18 +489,20 @@ msgstr "Shortcut Coverflow Switch Applications"
 
 #: src/prefs.js:457
 msgid "Activate application switcher."
-msgstr "Aktifkan application switcher."
+msgstr "Aktifkan switcher aplikasi."
 
 #: src/prefs.js:458
-#, fuzzy
 msgid ""
 "Coverflow Switch Applications That are Visible on All Workspaces Shortcut"
-msgstr "Shortcut Coverflow Switch Applications"
+msgstr ""
+"Pintasan Coverflow untuk Beralih Aplikasi yang Terlihat di Semua Workspace"
 
 #: src/prefs.js:458
 msgid ""
 "Activate application switcher listing applications visible on all workspaces."
 msgstr ""
+"Aktifkan switcher aplikasi yang menampilkan aplikasi terlihat di semua "
+"workspace."
 
 #: src/prefs.js:461
 msgid "Advanced Options"
@@ -566,22 +562,23 @@ msgstr "Kontribusi"
 
 #: src/prefs.js:610
 msgid "Get involved"
-msgstr ""
+msgstr "Terlibat"
 
 #: src/prefs.js:611
 msgid ""
 "Help improve this extension by contributing code, reporting issues, or "
 "translating it into your language."
 msgstr ""
+"Bantu tingkatkan ekstensi ini dengan berkontribusi kode, melaporkan masalah, "
+"atau menerjemahkannya ke bahasa Anda."
 
 #: src/prefs.js:615
 msgid "Code and Issues"
-msgstr ""
+msgstr "Kode dan Masalah"
 
 #: src/prefs.js:621
-#, fuzzy
 msgid "Translations"
-msgstr "Terjemahkan"
+msgstr "Terjemahan"
 
 #: src/prefs.js:627
 msgid "Donate"
@@ -590,59 +587,63 @@ msgstr "Donasi"
 #: src/prefs.js:628
 msgid "If you use this extension, consider supporting its development."
 msgstr ""
+"Jika Anda menggunakan ekstensi ini, pertimbangkan untuk mendukung "
+"pengembangannya."
 
 #: src/prefs.js:632
 msgid "Liberapay"
-msgstr ""
+msgstr "Liberapay"
 
 #: src/prefs.js:638
 msgid "PayPal"
-msgstr ""
+msgstr "PayPal"
 
 #: src/prefs.js:644
 msgid "GitHub Sponsors"
-msgstr ""
+msgstr "Sponsor GitHub"
 
 #: src/prefs.js:650
 msgid "Preferences backup"
-msgstr ""
+msgstr "Pencadangan preferensi"
 
 #: src/prefs.js:651
 msgid ""
 "Save or restore this extension's settings, or reset everything to defaults."
 msgstr ""
+"Simpan atau pulihkan pengaturan ekstensi ini, atau kembalikan semua ke "
+"pengaturan default."
 
 #: src/prefs.js:656
 msgid "Settings"
-msgstr ""
+msgstr "Pengaturan"
 
 #: src/prefs.js:660
 msgid "Load"
-msgstr ""
+msgstr "Muat"
 
 #: src/prefs.js:666
 msgid "Load Settings"
-msgstr ""
+msgstr "Muat Pengaturan"
 
 #: src/prefs.js:673
 msgid "Could not read settings file"
-msgstr ""
+msgstr "Gagal membaca file pengaturan"
 
 #: src/prefs.js:687
 msgid "Save"
-msgstr ""
+msgstr "Simpan"
 
 #: src/prefs.js:691
 msgid "Save Settings"
-msgstr ""
+msgstr "Simpan Pengaturan"
 
 #: src/prefs.js:698
 msgid "dconf dump failed"
-msgstr ""
+msgstr "dconf dump gagal"
 
 #: src/prefs.js:708
 msgid "Reset"
-msgstr ""
+msgstr "Setel Ulang"
 
 #: src/prefs.js:789
 msgid "Reset to default value"
